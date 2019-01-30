@@ -1,0 +1,161 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Guest.master.cs" Inherits="Guest_Guest" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Easy Recharge Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href='/../fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='/../fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->	
+<!-- js -->
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<!-- js -->
+								 
+    <link href="../StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     
+<div class="banner page-head">
+	<div class="header">	
+			<div class="logo">
+			   <h1><a href="home.aspx"><i><img src="../images/cell.png" alt=" " /></i>Digital Wallet</h1>
+			</div>
+			<div class="top-nav">
+				<span class="menu"><img src="../images/menu.png" alt=" " /></span>
+				<ul class="nav1">
+					<li><a href="home.aspx" >Home</a></li>
+					<li><a href="Mobile.aspx" >Mobile</a></li>
+					<li><a href="Datacard.aspx" >datacard</a></li>
+					<li><a href="DTH.aspx" >DTH</a></li>
+					<li><a href="login.aspx" >login</a></li>
+					<li><a href="Signup.aspx" >Signup</a></li>
+				</ul>
+						<!-- script-for-menu -->
+						 
+						<!-- /script-for-menu -->
+			</div>
+			<!-- start search-->
+				    
+					<!-- search-scripts -->
+					 
+				<!-- //search-scripts -->
+				
+			
+			<div class="clearfix"> </div>
+	</div>
+	<div class="container">
+		
+        <div class="mycontent">
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+	</div>
+</div>
+<div class="set-content">
+	<div class="container">
+
+
+       
+     
+
+	</div>
+</div>
+
+
+        
+<div class="content-bottom-two">
+		<div class="col-md-6 content-left text-center">
+			<img src="../images/bbb5.png" alt="" />
+		</div>
+		<div class="col-md-6 content-right text-center">
+			<img src="../images/bbb3.png" alt="" />
+		<div class="clearfix"></div>
+		</div>
+</div>
+<div class="footer-top">
+	<div class="container">
+		<div class="foo-grids">
+			<div class="col-md-3 foo-grid">
+				<h3>MOBILE RECHARGES</h3>
+				<ul>
+					<li><a href="#">Airtel</a></li>
+					<li><a href="#">Aircel</a></li>
+					<li><a href="#">BSNL</a></li>
+					<li><a href="#">Idea</a></li>
+					<li><a href="#">MTNL</a></li>
+					<li><a href="#">MTS</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 foo-grid">
+				<h3>DTH RECHARGES</h3>
+				<ul>
+					<li><a href="#">Airtel Digital TV Recharges</a></li>
+					<li><a href="#">Dish TV Recharges</a></li>
+					<li><a href="#">Tata Sky Recharges</a></li>
+					<li><a href="#">Reliance Digital TV Recharges</a></li>
+					<li><a href="#">Sun Direct Recharges</a></li>
+					<li><a href="#">Videocon D2H Recharges</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 foo-grid">
+				<h3>DATACARD RECHARGES</h3>
+				<ul>
+					<li><a href="#">Airtel 2G Service</a></li>
+					<li><a href="#">Aircel 2G Service</a></li>
+					<li><a href="#">BSNL 2G Service</a></li>
+					<li><a href="#">MTS MBlaze Recharges</a></li>
+					<li><a href="#">Tata Photon Plus Recharges</a></li>
+					<li><a href="#">Reliance NetConnect Recharges</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 foo-grid">
+				<h3>PAYMENT OPTIONS</h3>
+				<ul>
+					<li>Credit Cards</li>
+					<li>Debit Cards</li>
+					<li>Any Visa Debit Card (VBV)</li>
+					<li>Direct Bank Debits</li>
+					<li>Cash Cards</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>	
+</div>
+
+<div class="footer">
+	<div class="container">
+		<h2><a href="index.html">Digital Wallet</a></h2>
+		<p>© 2017 Digital Wallet. All Rights Reserved | Designed by <a href="#" target="_blank">Rider</a></p>
+		<ul>
+			<li><a class="face1" href="#"></a></li>
+			<li><a class="face2"href="#"></a></li>
+			<li><a class="face3" href="#"></a></li>
+			<li><a class="face4" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+<!-- mobile --> 
+<!-- for bootstrap working -->
+		<%--<script src="../js/bootstrap.js"></script>--%>
+<!-- //for bootstrap working -->
+    </form>
+</body>
+</html>

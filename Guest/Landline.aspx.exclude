@@ -1,0 +1,39 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Guest/Guest.master" AutoEventWireup="true" CodeFile="Landline.aspx.cs" Inherits="Guest_Landline" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+                                <div id="step15" class="tab-pane active" role="tabpanel">
+                                    <div class="mobile-grids">
+                                        <div class="mobile-left text-center">
+                                            <img alt="" src="images/landline.png" />
+                                        </div>
+                                        <div class="mobile-right">
+                                            <h4>Pay your landline bill.Which Provider?</h4>
+                                            <div class="section_room">
+                                                <select id="country0" class="frm-field required" name="D1" onchange="change_country(this.value)">
+                                                    <option value="null">Enter Landline Provider Name</option>
+                                                    <option value="null">Airtel Landline</option>
+                                                    <option value="AX">Bsnl Landline</option>
+                                                    <option value="AX">MTNL Delhi</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-inline pull-right">
+                                        <li
+
+                                            <asp:Button ID="Btnnxt2" CssClass="mob-btn btn btn-primary next-step" runat="server" Text="Next" />
+
+                                        </li>
+                                    </ul>
+                                </div>
+                               
+                                
+ <div class="clearfix">
+        </div>
+    </div>
+</asp:Content>
+
+
